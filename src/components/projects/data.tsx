@@ -9,23 +9,25 @@ export const sectionHeading = {
 
 export const timelineData: TimelineEntry[] = [
   {
-    title: "cs-flashcards",
+    title: "Marketing Portfolio",
     projectUrls: [
       {
-        url: "https://github.com/yoyocharlie/cs-flashcards-open",
+        url: "https://anasqazza.vercel.app/",
+        icon: <RiExternalLinkLine size={20} />,
+      },
+      {
+        url: "https://github.com/aqazza/Portfolio2.0",
         icon: <IoLogoGithub size={20} />,
       },
     ],
-    imageUrl: "/images/cs-flashcards.png",
-    description: `A fullstack flashcards web app that I maintain as a valuable learning resource for both myself and the developer community. By open-sourcing this project, I aim to share knowledge and provide a practical tool for others to learn and grow in their development journey.`,
+    videoUrl: "/images/AQPortfolio.mp4",
+    description: `The site highlights a variety of projects, demonstrating a commitment 
+    to clean design and efficient functionality. Visitors can explore completed projects
+     and gain insight into technical expertise and development process while cloning it for themselves.`,
     tech: [
       "TypeScript",
       "Next.js",
       "TailwindCSS",
-      "shadcn/ui",
-      "tRPC",
-      "Prisma",
-      "Docker",
       "Vercel Postgres",
     ],
     cards: {
@@ -46,19 +48,19 @@ export const timelineData: TimelineEntry[] = [
     },
   },
   {
-    title: "nextMotion",
+    title: "Photography Portfolio",
     projectUrls: [
       {
-        url: "https://next-motion-five.vercel.app/",
+        url: "https://saied-ashour.netlify.app/",
         icon: <RiExternalLinkLine size={20} />,
       },
       {
-        url: "https://github.com/yoyocharlie/nextMotion",
+        url: "https://github.com/aqazza/Saied-photography-portfolio",
         icon: <IoLogoGithub size={20} />,
       },
     ],
-    imageUrl: "/images/nextMotion.png",
-    description: `An open-source, opinionated portfolio template for creating a modern, reactive SPA portfolio.`,
+    videoUrl: "/images/saied.mp4",
+    description: `The site features a selection of projects that emphasize technical proficiency, modern design, and practical functionality. It offers an overview of Saied’s skills and approach to delivering high-quality digital experiences.`,
     tech: [
       "TypeScript",
       "Next.js",
@@ -78,15 +80,19 @@ export const timelineData: TimelineEntry[] = [
     },
   },
   {
-    title: "Simple Joys (WIP)",
+    title: "Fiore CRM",
     projectUrls: [
       {
-        url: "https://simplejoysmedia.com",
+        url: "https://fiore-three.vercel.app/",
         icon: <RiExternalLinkLine size={20} />,
       },
+      {
+        url: "https://github.com/aqazza/Fiore",
+        icon: <IoLogoGithub size={20} />,
+      },
     ],
-    videoUrl: "/images/simple-joys-video.mp4",
-    description: `A cinematography portfolio built with Next.js and Sanity.io for fast page speeds and quick delivery of high quality assets.`,
+    imageUrl: "/images/fiore.png",
+    description: `This website presents Fiore, a fully front-end Customer Relationship Management (CRM) system designed to streamline user interactions and enhance business workflows. Built with a focus on modern web technologies, the site offers an intuitive and efficient front-end interface for managing customer data, tracking engagements, and optimizing client relationships—all.`,
     tech: [
       "TypeScript",
       "Next.js",

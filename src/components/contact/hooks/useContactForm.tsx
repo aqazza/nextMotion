@@ -50,7 +50,7 @@ const useContactForm = () => {
       reset();
       toast({
         title: "Message Sent!",
-        description: "I'll be in touch ASAP 🥳",
+        description: "I'll be in touch ASAP 🙃",
       });
       setMessage("");
       setMessageContent("");

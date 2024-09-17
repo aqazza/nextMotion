@@ -25,7 +25,7 @@ export function Form() {
           </div>
           <Input
             id="name"
-            placeholder="James Jonathan"
+            placeholder="Idris Elba"
             type="text"
             {...register("name")}
           />
@@ -34,7 +34,7 @@ export function Form() {
           <Label htmlFor="email">Email</Label>
           <Input
             id="email"
-            placeholder="jimmy@johns.io"
+            placeholder="James@bond.com"
             {...register("email")}
             type="email"
           />

@@ -9,21 +9,23 @@ export const title = {
 };
 
 export const profileCard = {
-  title: "Jacob Pixler",
+  title: "Anas Qazza",
   subTitle: "Fullstack Software Developer",
-  body: `Passionate about building scalable, user-friendly web applications. Always exploring new technologies and best practices to improve development processes. And I like cats.`,
+  body: `Hey, I’m Anas Qazza! I’m a full-stack developer who loves diving into code, building scalable web apps, 
+  and occasionally breaking things just to fix them again. When I’m not glued to my screen, you’ll probably find 
+  me exploring the latest tech trends`,
   socialUrls: [
     {
-      url: "https://www.linkedin.com/in/jacob-pixler-094348219/",
+      url: "https://www.linkedin.com/in/anas-qazza",
       icon: <FaLinkedinIn size={20} />,
     },
     {
-      url: "https://github.com/yoyocharlie",
+      url: "https://github.com/aqazza",
       icon: <IoLogoGithub size={20} />,
     },
   ],
   tooltip: {
-    imagePath: "https://avatars.githubusercontent.com/u/106707326?v=4",
+    imagePath: "/images/about.jpeg",  // Path to your local image
     title: "Hey...",
     subTitle: "That's me!",
   },
