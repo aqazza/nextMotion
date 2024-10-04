@@ -80,19 +80,19 @@ export const timelineData: TimelineEntry[] = [
     },
   },
   {
-    title: "Fiore CRM",
+    title: "Voovo.",
     projectUrls: [
       {
-        url: "https://fiore-three.vercel.app/",
+        url: "https://voovo.netlify.app/",
         icon: <RiExternalLinkLine size={20} />,
       },
       {
-        url: "https://github.com/aqazza/Fiore",
+        url: "https://github.com/aqazza/Movie-Recommender",
         icon: <IoLogoGithub size={20} />,
       },
     ],
-    imageUrl: "/images/fiore.png",
-    description: `This website presents Fiore, a fully front-end Customer Relationship Management (CRM) system designed to streamline user interactions and enhance business workflows. Built with a focus on modern web technologies, the site offers an intuitive and efficient front-end interface for managing customer data, tracking engagements, and optimizing client relationships—all.`,
+    videoUrl: "/images/Voovo.mp4",
+    description: `Voovo, is a movie and TV show recommendation platform that leverages APIs to present users with trending and top-rated movie suggestions. Users can explore popular movies through a visually appealing interface built using React, Next.js, and Swiper.js for carousels. Additionally, the app features an AI-powered recommendation engine, where users can input their movie preferences and receive personalized suggestions based on those inputs.`,
     tech: [
       "TypeScript",
       "Next.js",
